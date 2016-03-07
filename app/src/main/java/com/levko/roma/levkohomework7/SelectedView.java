@@ -30,7 +30,7 @@ public class SelectedView extends AppCompatActivity {
         Intent intent = getIntent();
         sText = intent.getStringExtra(Constants.PUT_EXTRA_TEXT);
         sTitle = intent.getStringExtra(Constants.PUT_EXTRA_TITLE);
-        tvText.setText(sText);
+        tvText.setText(sTitle + "\n" + sText);
     }
 
     public boolean onOptionsItemSelected(MenuItem item) {
