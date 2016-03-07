@@ -23,7 +23,7 @@ public class SelectedView extends AppCompatActivity {
     }
 
     private void findView() {
-        tvText = (TextView)findViewById(R.id.tv_text_ASV);
+        tvText = (TextView) findViewById(R.id.tv_text_ASV);
     }
 
     private void setDataToViews() {
@@ -31,7 +31,6 @@ public class SelectedView extends AppCompatActivity {
         sText = intent.getStringExtra(Constants.PUT_EXTRA_TEXT);
         sTitle = intent.getStringExtra(Constants.PUT_EXTRA_TITLE);
         tvText.setText(sText);
-
     }
 
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -42,6 +41,7 @@ public class SelectedView extends AppCompatActivity {
         }
         return true;
     }
+
     private void addSupportActionBar() {
 
         final android.support.v7.app.ActionBar mActionBar = getSupportActionBar();
