@@ -1,4 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuItemGroup"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/menu_main_group"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/item1_main"
+                android:icon="@drawable/ic_unchecked"
+                app:showAsAction="ifRoom"
+                android:title="@string/item_1" />
 
+            <item
+                android:id="@+id/item2_main"
+                app:showAsAction="always"
+                android:icon="@drawable/ic_unchecked"
+                android:title="@string/item_2" />
+
+            <item
+                android:id="@+id/item3_main"
+                app:showAsAction="always"
+                android:icon="@drawable/ic_unchecked"
+                android:title="@string/item_3" />
+        </menu>
+    </item>
 </menu>

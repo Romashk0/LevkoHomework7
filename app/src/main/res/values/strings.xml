@@ -6,6 +6,14 @@
     <string name="item_text1">The Command Palette holds infrequently used functionality, like sorting, changing the syntax and changing the indentation settings. With just a few keystrokes, you can search for what you want, without ever having to navigate through the menus or remember obscure key bindings.</string>
     <string name="item_text2">When you need to focus, Distraction Free Mode is there to help you out. Distraction Free Mode is full screen, chrome free editing, with nothing but your text in the center of the screen. You can incrementally show elements of the UI, such as tabs and the find panel, as you need them.</string>
     <string name="item_text3">Projects in Sublime Text capture the full contents of the workspace, including modified and unsaved files. You can switch between projects in a manner similar to Goto Anything, and the switch is instant, with no save prompts - all your modifications will be restored next time the project is opened.</string>
+    <string name="item_1">Item #1</string>
+    <string name="item_2">Item #2</string>
+    <string name="item_3">Item #3</string>
+    <string name="open_new_activity">Open in new window</string>
+    <string name="show_toast">Show toast</string>
+    <string name="close_app">Close app</string>
+    <string name="title_action_bar">"Levko HW #7 "</string>
+    <string name="menu_main_group">menuGroup</string>
     <string-array name="TextList">
         <item>The Command Palette holds infrequently used functionality, like sorting, changing the syntax and changing the indentation settings. With just a few keystrokes, you can search for what you want, without ever having to navigate through the menus or remember obscure key bindings.</item>
         <item>When you need to focus, Distraction Free Mode is there to help you out. Distraction Free Mode is full screen, chrome free editing, with nothing but your text in the center of the screen. You can incrementally show elements of the UI, such as tabs and the find panel, as you need them.</item>

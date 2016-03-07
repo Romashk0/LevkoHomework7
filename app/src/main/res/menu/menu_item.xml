@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/item1_item"
+        android:title="@string/open_new_activity" />
+
+    <item
+        android:id="@+id/item2_item"
+        android:title="@string/show_toast" />
+
+    <item
+        android:id="@+id/item3_item"
+        android:title="@string/close_app" />
+
 </menu>

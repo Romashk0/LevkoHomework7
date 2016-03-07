@@ -3,8 +3,9 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">10dp</dimen>
     <dimen name="card_view_stroke">5dp</dimen>
-    <dimen name="activity_hz">15dp</dimen>
-    <dimen name="activity_hz2">20dp</dimen>
-    <dimen name="height_cardview">80dp</dimen>
-    <dimen name="corner_radius_cardview">15dp</dimen>
+    <dimen name="height_card_view">80dp</dimen>
+    <dimen name="corner_radius_card_view">15dp</dimen>
+    <dimen name="margin_text">10dp</dimen>
+    <dimen name="text_size_title">20sp</dimen>
+    <dimen name="text_size_content">16sp</dimen>
 </resources>
